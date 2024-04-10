@@ -22,6 +22,12 @@ MAX_FD="maximum"
 }
 APP_NAME="Gradle"
 APP_BASE_NAME=`basename "$0"`
+    die ( ) {
+    echo
+    echo "$*"
+    echo
+    exit 1
+}
 APP_NAME="Gradle"
 APP_BASE_NAME=`basename "$0"`
 APP_NAME="Gradle"
